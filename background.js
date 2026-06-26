@@ -37,7 +37,6 @@ function promptAndRenameTab() {
 
     sessionStorage.removeItem("ext_original_tab_title");
   } else {
-    // User entered a valid new name. Apply it.
     document.title = newTitle.trim();
   }
 }
