@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Rename Tab via Page Menu",
+  "version": "1.0",
+  "description": "Allows renaming the current tab by right-clicking on the webpage.",
+  "permissions": ["contextMenus", "activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
